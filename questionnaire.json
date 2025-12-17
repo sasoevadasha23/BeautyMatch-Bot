@@ -1,0 +1,517 @@
+{
+  "questionnaire": {
+    "version": "1.0",
+    "description": "Опросник для определения цветотипа и подбора макияжа",
+    "questions": [
+      {
+        "id": "hair_color",
+        "order": 1,
+        "type": "multiple_choice",
+        "text": "🎨 Какой у вас естественный цвет волос?",
+        "description": "Выберите наиболее подходящий вариант",
+        "options": [
+          {
+            "id": "hair_black",
+            "text": "Черный",
+            "points": {
+              "winter": 3,
+              "autumn": 1
+            },
+            "hex_color": "#000000",
+            "image_hint": "https://example.com/images/hair_black.jpg"
+          },
+          {
+            "id": "hair_dark_brown",
+            "text": "Темно-коричневый",
+            "points": {
+              "winter": 2,
+              "autumn": 2,
+              "summer": 1
+            },
+            "hex_color": "#3D2B1F",
+            "image_hint": "https://example.com/images/hair_dark_brown.jpg"
+          },
+          {
+            "id": "hair_light_brown",
+            "text": "Светло-коричневый",
+            "points": {
+              "spring": 2,
+              "autumn": 2,
+              "summer": 1
+            },
+            "hex_color": "#8B4513",
+            "image_hint": "https://example.com/images/hair_light_brown.jpg"
+          },
+          {
+            "id": "hair_blonde",
+            "text": "Блонд",
+            "points": {
+              "spring": 3,
+              "summer": 2
+            },
+            "hex_color": "#FAF0BE",
+            "image_hint": "https://example.com/images/hair_blonde.jpg"
+          },
+          {
+            "id": "hair_red",
+            "text": "Рыжий/Медный",
+            "points": {
+              "autumn": 3,
+              "spring": 2
+            },
+            "hex_color": "#A52A2A",
+            "image_hint": "https://example.com/images/hair_red.jpg"
+          },
+          {
+            "id": "hair_gray",
+            "text": "Седой/Серый",
+            "points": {
+              "summer": 3,
+              "winter": 2
+            },
+            "hex_color": "#808080",
+            "image_hint": "https://example.com/images/hair_gray.jpg"
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "eye_color",
+        "order": 2,
+        "type": "multiple_choice",
+        "text": "👁️ Какой цвет ваших глаз?",
+        "description": "Рассмотрите глаза при естественном освещении",
+        "options": [
+          {
+            "id": "eyes_brown_dark",
+            "text": "Темно-карие/Черные",
+            "points": {
+              "winter": 3,
+              "autumn": 2
+            },
+            "hex_color": "#3D2B1F"
+          },
+          {
+            "id": "eyes_brown_light",
+            "text": "Светло-карие/Ореховые",
+            "points": {
+              "autumn": 3,
+              "spring": 2
+            },
+            "hex_color": "#8B4513"
+          },
+          {
+            "id": "eyes_blue",
+            "text": "Голубые",
+            "points": {
+              "summer": 3,
+              "winter": 2,
+              "spring": 1
+            },
+            "hex_color": "#87CEEB"
+          },
+          {
+            "id": "eyes_green",
+            "text": "Зеленые",
+            "points": {
+              "autumn": 3,
+              "summer": 2,
+              "spring": 1
+            },
+            "hex_color": "#32CD32"
+          },
+          {
+            "id": "eyes_gray",
+            "text": "Серые",
+            "points": {
+              "summer": 3,
+              "winter": 1
+            },
+            "hex_color": "#BEBEBE"
+          },
+          {
+            "id": "eyes_hazel",
+            "text": "Смешанные (например, зелено-карие)",
+            "points": {
+              "autumn": 2,
+              "spring": 2,
+              "summer": 1
+            },
+            "hex_color": "#C8A951"
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "skin_tone",
+        "order": 3,
+        "type": "multiple_choice_with_image",
+        "text": "🤍 Какой оттенок вашей кожи?",
+        "description": "Посмотрите на кожу на внутренней стороне запястья при естественном свете",
+        "options": [
+          {
+            "id": "skin_porcelain",
+            "text": "Фарфоровый (очень светлый с розовым подтоном)",
+            "points": {
+              "winter": 3,
+              "summer": 2
+            },
+            "undertone": "cool",
+            "hex_color": "#F8F0E3"
+          },
+          {
+            "id": "skin_fair",
+            "text": "Светлый с розовым подтоном",
+            "points": {
+              "winter": 2,
+              "summer": 3
+            },
+            "undertone": "cool",
+            "hex_color": "#E6C9C2"
+          },
+          {
+            "id": "skin_fair_warm",
+            "text": "Светлый с золотистым/персиковым подтоном",
+            "points": {
+              "spring": 3,
+              "autumn": 1
+            },
+            "undertone": "warm",
+            "hex_color": "#FFDAB9"
+          },
+          {
+            "id": "skin_medium",
+            "text": "Средний/бежевый",
+            "points": {
+              "autumn": 2,
+              "spring": 2,
+              "summer": 1
+            },
+            "undertone": "neutral",
+            "hex_color": "#D2B48C"
+          },
+          {
+            "id": "skin_olive",
+            "text": "Оливковый (с зеленоватым подтоном)",
+            "points": {
+              "winter": 1,
+              "summer": 3,
+              "autumn": 1
+            },
+            "undertone": "cool",
+            "hex_color": "#8B7355"
+          },
+          {
+            "id": "skin_dark_warm",
+            "text": "Смуглый с теплым подтоном",
+            "points": {
+              "autumn": 3,
+              "spring": 1
+            },
+            "undertone": "warm",
+            "hex_color": "#8B4513"
+          },
+          {
+            "id": "skin_dark_cool",
+            "text": "Смуглый с холодным подтоном",
+            "points": {
+              "winter": 3,
+              "summer": 1
+            },
+            "undertone": "cool",
+            "hex_color": "#654321"
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "face_shape",
+        "order": 4,
+        "type": "multiple_choice_with_image",
+        "text": "🔺 Какую форму имеет ваше лицо?",
+        "description": "Соберите волосы назад и посмотрите в зеркало",
+        "options": [
+          {
+            "id": "face_oval",
+            "text": "Овальная",
+            "image_hint": "https://example.com/images/face_oval.jpg",
+            "makeup_tips": {
+              "contour": "Минимальный контур, акцент на румянах на скулах",
+              "eyebrows": "Мягкий изгиб",
+              "blush": "На яблочках щек"
+            }
+          },
+          {
+            "id": "face_round",
+            "text": "Круглая",
+            "image_hint": "https://example.com/images/face_round.jpg",
+            "makeup_tips": {
+              "contour": "Контур по бокам лба, под скулами и вдоль линии челюсти",
+              "eyebrows": "Высокий изгиб для удлинения",
+              "blush": "Диагонально от скул к вискам"
+            }
+          },
+          {
+            "id": "face_square",
+            "text": "Квадратная",
+            "image_hint": "https://example.com/images/face_square.jpg",
+            "makeup_tips": {
+              "contour": "Смягчение углов челюсти и лба",
+              "eyebrows": "Закругленная форма",
+              "blush": "На яблочках щек круговыми движениями"
+            }
+          },
+          {
+            "id": "face_heart",
+            "text": "Сердцевидная",
+            "image_hint": "https://example.com/images/face_heart.jpg",
+            "makeup_tips": {
+              "contour": "По бокам лба и подбородка",
+              "eyebrows": "Мягкий естественный изгиб",
+              "blush": "Ниже скул горизонтально"
+            }
+          },
+          {
+            "id": "face_long",
+            "text": "Продолговатая/Прямоугольная",
+            "image_hint": "https://example.com/images/face_long.jpg",
+            "makeup_tips": {
+              "contour": "Горизонтальные линии на лбу и подбородке",
+              "eyebrows": "Прямая форма без высокого изгиба",
+              "blush": "Горизонтально на яблочках щек"
+            }
+          },
+          {
+            "id": "face_diamond",
+            "text": "Ромбовидная",
+            "image_hint": "https://example.com/images/face_diamond.jpg",
+            "makeup_tips": {
+              "contour": "На скулах и лбу",
+              "eyebrows": "Закругленная форма",
+              "blush": "На яблочках щек"
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "eye_shape",
+        "order": 5,
+        "type": "multiple_choice_with_image",
+        "text": "👁️ Какую форму имеют ваши глаза?",
+        "description": "Посмотрите в зеркало прямо",
+        "options": [
+          {
+            "id": "eyes_almond",
+            "text": "Миндалевидные",
+            "image_hint": "https://example.com/images/eyes_almond.jpg",
+            "makeup_tips": "Подходит большинство техник макияжа глаз. Классическая стрелка всегда уместна."
+          },
+          {
+            "id": "eyes_round",
+            "text": "Круглые",
+            "image_hint": "https://example.com/images/eyes_round.jpg",
+            "makeup_tips": "Стрелка, вытянутая к вискам, визуально удлиняет глаза. Темные тени на внешних уголках."
+          },
+          {
+            "id": "eyes_monolid",
+            "text": "Скрытое веко (монолид)",
+            "image_hint": "https://example.com/images/eyes_monolid.jpg",
+            "makeup_tips": "Градиентные тени, акцент на удлинении. Подводка по верхнему веку толще к внешнему уголку."
+          },
+          {
+            "id": "eyes_hooded",
+            "text": "Нависшее веко",
+            "image_hint": "https://example.com/images/eyes_hooded.jpg",
+            "makeup_tips": "Светлые тени на подвижном веке, темные в складке. Стрелка с открытыми глазами."
+          },
+          {
+            "id": "eyes_downturned",
+            "text": "Опущенные внешние уголки",
+            "image_hint": "https://example.com/images/eyes_downturned.jpg",
+            "makeup_tips": "Светлые тени под бровью и во внутреннем уголке. Стрелка, приподнятая к вискам."
+          },
+          {
+            "id": "eyes_upturned",
+            "text": "Приподнятые внешние уголки",
+            "image_hint": "https://example.com/images/eyes_upturned.jpg",
+            "makeup_tips": "Баланс формы с помощью теней на нижнем веке. Классическая стрелка."
+          },
+          {
+            "id": "eyes_wide_set",
+            "text": "Широко посаженные",
+            "image_hint": "https://example.com/images/eyes_wide_set.jpg",
+            "makeup_tips": "Акцент на внутренних уголках. Брови ближе к переносице."
+          },
+          {
+            "id": "eyes_close_set",
+            "text": "Близко посаженные",
+            "image_hint": "https://example.com/images/eyes_close_set.jpg",
+            "makeup_tips": "Акцент на внешних уголках. Светлые тени во внутренних уголках."
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "makeup_focus",
+        "order": 6,
+        "type": "multiple_choice",
+        "text": "✨ На чем хотите сделать акцент?",
+        "description": "Выберите одну главную зону",
+        "options": [
+          {
+            "id": "focus_eyes",
+            "text": "Глаза",
+            "makeup_style": "dramatic_eyes",
+            "recommendations": ["Тени для век", "Подводка", "Тушь", "Накладные ресницы"]
+          },
+          {
+            "id": "focus_lips",
+            "text": "Губы",
+            "makeup_style": "bold_lips",
+            "recommendations": ["Яркая помада", "Блеск для губ", "Контурный карандаш"]
+          },
+          {
+            "id": "focus_skin",
+            "text": "Кожа (сияющая, ровная)",
+            "makeup_style": "skin_focused",
+            "recommendations": ["Хайлайтер", "Румяна", "Шиммер", "Увлажняющая база"]
+          },
+          {
+            "id": "focus_cheekbones",
+            "text": "Скулы (скульптурирование)",
+            "makeup_style": "contoured",
+            "recommendations": ["Контурная пудра", "Румяна", "Бронзер"]
+          },
+          {
+            "id": "focus_natural",
+            "text": "Естественный макияж (без ярких акцентов)",
+            "makeup_style": "natural",
+            "recommendations": ["BB-крем", "Тушь", "Блеск для губ", "Пудра"]
+          },
+          {
+            "id": "focus_brows",
+            "text": "Брови",
+            "makeup_style": "brows_focused",
+            "recommendations": ["Карандаш для бровей", "Гель для бровей", "Тени для бровей"]
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "makeup_occasion",
+        "order": 7,
+        "type": "multiple_choice",
+        "text": "🎭 Для какого случая нужен макияж?",
+        "description": "Это поможет подобрать интенсивность",
+        "options": [
+          {
+            "id": "occasion_everyday",
+            "text": "Повседневный (офис, учеба)",
+            "intensity": "light",
+            "duration": "daytime",
+            "recommendations": ["Стойкость 8+ часов", "Минимализм", "Естественные оттенки"]
+          },
+          {
+            "id": "occasion_date",
+            "text": "Свидание/Встреча",
+            "intensity": "medium",
+            "duration": "evening",
+            "recommendations": ["Романтичные тона", "Легкий шиммер", "Стойкая помада"]
+          },
+          {
+            "id": "occasion_party",
+            "text": "Вечеринка/Клуб",
+            "intensity": "high",
+            "duration": "night",
+            "recommendations": ["Яркие цвета", "Стойкие формулы", "Блестки", "Дымчатый смоки"]
+          },
+          {
+            "id": "occasion_wedding",
+            "text": "Свадьба/Торжество",
+            "intensity": "medium-high",
+            "duration": "all_day",
+            "recommendations": ["Фотостойкость", "Устойчивость к слезам", "Естественная элегантность"]
+          },
+          {
+            "id": "occasion_photoshoot",
+            "text": "Фотосессия",
+            "intensity": "high",
+            "duration": "variable",
+            "recommendations": ["HD-формулы", "Матовая кожа", "Контрастные цвета для фото"]
+          },
+          {
+            "id": "occasion_sport",
+            "text": "Спорт/Активный отдых",
+            "intensity": "very_light",
+            "duration": "sweat_resistant",
+            "recommendations": ["Водостойкость", "Минеральная косметика", "Без масел"]
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "additional_preferences",
+        "order": 8,
+        "type": "multiple_select",
+        "text": "💫 Есть ли особые предпочтения?",
+        "description": "Можно выбрать несколько вариантов",
+        "options": [
+          {
+            "id": "pref_vegan",
+            "text": "Веганская косметика",
+            "filter_tag": "vegan"
+          },
+          {
+            "id": "pref_cruelty_free",
+            "text": "Cruelty-free (без тестов на животных)",
+            "filter_tag": "cruelty_free"
+          },
+          {
+            "id": "pref_budget",
+            "text": "Бюджетные варианты (до 1000₽)",
+            "filter_tag": "budget"
+          },
+          {
+            "id": "pref_premium",
+            "text": "Премиум бренды",
+            "filter_tag": "premium"
+          },
+          {
+            "id": "pref_drugstore",
+            "text": "Масс-маркет (Rive Gauche, Л'Этуаль и др.)",
+            "filter_tag": "drugstore"
+          },
+          {
+            "id": "pref_korean",
+            "text": "Корейская косметика",
+            "filter_tag": "korean"
+          },
+          {
+            "id": "pref_waterproof",
+            "text": "Водостойкие формулы",
+            "filter_tag": "waterproof"
+          },
+          {
+            "id": "pref_hygienic",
+            "text": "Гипоаллергенная косметика",
+            "filter_tag": "hypoallergenic"
+          }
+        ],
+        "required": false,
+        "max_selections": 3
+      }
+    ],
+    "scoring": {
+      "method": "weighted_sum",
+      "max_points_per_question": 3,
+      "determination": {
+        "clear_dominant": 10,
+        "moderate_dominant": 7,
+        "mixed_type": "mixed"
+      }
+    },
+    "completion_message": "Спасибо за ответы! Анализирую ваши данные...",
+    "estimated_time": "2-3 минуты"
+  }
+}
