@@ -1,0 +1,366 @@
+[
+  {
+    "name": "Nude Foundation Light",
+    "brand": "Estee Lauder",
+    "color": "бежевый",
+    "skin_tone": [
+      "светлый"
+    ],
+    "eye_color": [
+      "голубые",
+      "серые",
+      "зеленые"
+    ],
+    "occasion": [
+      "повседневный",
+      "офисный",
+      "вечерний"
+    ],
+    "price": 4500,
+    "description": "Тональный крем для светлой кожи с натуральным покрытием",
+    "image_url": "https://example.com/foundation1.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Nude Foundation Medium",
+    "brand": "Estee Lauder",
+    "color": "бежевый",
+    "skin_tone": [
+      "средний"
+    ],
+    "eye_color": [
+      "карие",
+      "зеленые",
+      "голубые",
+      "темные"
+    ],
+    "occasion": [
+      "повседневный",
+      "офисный",
+      "вечерний"
+    ],
+    "price": 4500,
+    "description": "Тональный крем для средней кожи с натуральным покрытием",
+    "image_url": "https://example.com/foundation2.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Nude Foundation Dark",
+    "brand": "Estee Lauder",
+    "color": "коричневый",
+    "skin_tone": [
+      "темный"
+    ],
+    "eye_color": [
+      "карие",
+      "темные"
+    ],
+    "occasion": [
+      "повседневный",
+      "офисный",
+      "вечерний"
+    ],
+    "price": 4500,
+    "description": "Тональный крем для темной кожи с натуральным покрытием",
+    "image_url": "https://example.com/foundation3.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Matte Foundation Light",
+    "brand": "Fenty Beauty",
+    "color": "бежевый",
+    "skin_tone": [
+      "светлый"
+    ],
+    "eye_color": [
+      "голубые",
+      "серые",
+      "зеленые"
+    ],
+    "occasion": [
+      "повседневный",
+      "офисный"
+    ],
+    "price": 3800,
+    "description": "Матовый тональный крем для светлой кожи",
+    "image_url": "https://example.com/foundation4.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Matte Foundation Medium",
+    "brand": "Fenty Beauty",
+    "color": "бежевый",
+    "skin_tone": [
+      "средний"
+    ],
+    "eye_color": [
+      "карие",
+      "зеленые",
+      "темные"
+    ],
+    "occasion": [
+      "повседневный",
+      "офисный"
+    ],
+    "price": 3800,
+    "description": "Матовый тональный крем для средней кожи",
+    "image_url": "https://example.com/foundation5.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Everyday Skin Tint",
+    "brand": "Maybelline",
+    "color": "светло-бежевый",
+    "skin_tone": [
+      "светлый",
+      "средний"
+    ],
+    "eye_color": [
+      "карие",
+      "голубые",
+      "серые"
+    ],
+    "occasion": [
+      "натуральный",
+      "повседневный"
+    ],
+    "price": 900,
+    "description": "Легкий тон, почти как крем",
+    "image_url": "https://example.com/foundation6.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Full Coverage Pro",
+    "brand": "Huda Beauty",
+    "color": "песочный",
+    "skin_tone": [
+      "средний"
+    ],
+    "eye_color": [
+      "карие",
+      "зеленые"
+    ],
+    "occasion": [
+      "вечерний",
+      "особый"
+    ],
+    "price": 3900,
+    "description": "Плотное покрытие, хорошо держится",
+    "image_url": "https://example.com/foundation7.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Winter Matte",
+    "brand": "L'Oreal",
+    "color": "нейтральный",
+    "skin_tone": [
+      "светлый"
+    ],
+    "eye_color": [
+      "серые",
+      "голубые"
+    ],
+    "occasion": [
+      "зимний",
+      "офисный"
+    ],
+    "price": 1300,
+    "description": "Матовый тон на холодное время года",
+    "image_url": "https://example.com/foundation8.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Autumn Satin",
+    "brand": "NYX",
+    "color": "теплый бежевый",
+    "skin_tone": [
+      "средний"
+    ],
+    "eye_color": [
+      "карие",
+      "зеленые"
+    ],
+    "occasion": [
+      "осенний",
+      "повседневный"
+    ],
+    "price": 1500,
+    "description": "Сатиновое покрытие, не сильно блестит",
+    "image_url": "https://example.com/foundation9.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Summer Glow Foundation",
+    "brand": "NARS",
+    "color": "золотистый бежевый",
+    "skin_tone": [
+      "средний",
+      "темный"
+    ],
+    "eye_color": [
+      "карие",
+      "темные",
+      "зеленые"
+    ],
+    "occasion": [
+      "летний",
+      "вечерний"
+    ],
+    "price": 4100,
+    "description": "Более сияющий тон",
+    "image_url": "https://example.com/foundation10.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  },
+  {
+    "name": "Deep Matte Studio",
+    "brand": "MAC",
+    "color": "темный",
+    "skin_tone": [
+      "темный"
+    ],
+    "eye_color": [
+      "карие",
+      "темные"
+    ],
+    "occasion": [
+      "особый",
+      "вечерний"
+    ],
+    "price": 4200,
+    "description": "Матовый тон, рассчитан на стойкость",
+    "image_url": "https://example.com/foundation11.jpg",
+    "hair_color": [
+      "блондин",
+      "русые",
+      "шатен",
+      "брюнет",
+      "рыжие"
+    ],
+    "face_shape": [
+      "овальное",
+      "квадратное",
+      "круглое",
+      "треугольное"
+    ]
+  }
+]
