@@ -1,3 +1,0 @@
-# BeautyMatch-Bot
-
-Hello
